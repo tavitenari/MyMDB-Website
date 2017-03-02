@@ -1,0 +1,58 @@
+/*
+Ioane "Tavi" Tenari
+3/12/16
+CSE 154 AK
+T.A. Courtney Dowell
+HW8
+
+-bacon.css-
+This is the stylesheet for mydmb.php, search-all.php, and search-kevin.php
+
+*/
+
+#banner, #w3c{
+	background-image: url(https://webster.cs.washington.edu/images/kevinbacon/banner-background.png);
+	color: white;
+	text-align: left;
+}
+
+#banner, #w3c, .main, table, form{
+	padding: 1em;
+}
+
+body{
+	font-family: Verdana;
+}
+
+form{
+	margin: auto;
+	width: 24em;
+}
+
+legend{
+	text-align: left;
+}
+
+.main, th:nth-child(2){
+	margin: auto;
+	text-align: center;
+	width: 90%;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #dad9d4;
+	margin: auto;
+}
+
+th:nth-child(1), tr td:nth-child(1){
+	padding-left: 1em;
+}
+
+th:nth-child(3), tr td:nth-child(3){
+	padding-right: 1em;
+}
+
+tr:nth-child(even){
+	background-color: #dad9d4;
+}
